@@ -1,0 +1,88 @@
+{
+  "uid" : "775a1f9204bac518",
+  "name" : "test_tags_edit",
+  "fullName" : "test_tag_management.TestTagsManagement#test_tags_edit",
+  "historyId" : "471c520417d5d862f329d6a3edefdd8e",
+  "time" : {
+    "start" : 1693393173863,
+    "stop" : 1693393174654,
+    "duration" : 791
+  },
+  "description" : "\n        标签编辑\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    标签编辑\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_tag_data_clear",
+    "time" : {
+      "start" : 1693393173863,
+      "stop" : 1693393173863,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_tag_data_clear::0",
+    "time" : {
+      "start" : 1693393174654,
+      "stop" : 1693393174795,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "标签编辑"
+  }, {
+    "name" : "feature",
+    "value" : "标签管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTagsManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "775a1f9204bac518.json",
+  "parameterValues" : [ ]
+}

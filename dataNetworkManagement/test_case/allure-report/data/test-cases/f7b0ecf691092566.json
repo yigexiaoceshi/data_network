@@ -1,0 +1,88 @@
+{
+  "uid" : "f7b0ecf691092566",
+  "name" : "test_account_edit",
+  "fullName" : "test_account_management.TestAccountManagement#test_account_edit",
+  "historyId" : "5e3b9ddc29a1208fd5ec3bfd7d99eebd",
+  "time" : {
+    "start" : 1693393122742,
+    "stop" : 1693393123780,
+    "duration" : 1038
+  },
+  "description" : "\n        编辑用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    编辑用户\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_account_data_clear",
+    "time" : {
+      "start" : 1693393122742,
+      "stop" : 1693393122742,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_account_data_clear::0",
+    "time" : {
+      "start" : 1693393123780,
+      "stop" : 1693393124207,
+      "duration" : 427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "story",
+    "value" : "编辑用户"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccountManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_account_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7b0ecf691092566.json",
+  "parameterValues" : [ ]
+}

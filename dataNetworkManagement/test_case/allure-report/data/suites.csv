@@ -1,0 +1,121 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_account_management.TestAccountManagement#test_account_disable","926","
+        停用用户
+        :return:
+        "
+"passed","test_subject_management.TestSubjectManagement#test_subject_edit","823","
+        编辑学科
+        :return:
+        "
+"passed","test_subject_management.TestSubjectManagement#test_subject_delete","822","
+        删除学科
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_list","143","
+        获取用户列表
+        :return:
+        "
+"passed","test_role_management.TestRoleManagement#test_role_list","117","
+        角色列表
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_add_linkdata","3533","
+        新增linkdata类型数据服务
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_add","386","
+        新增用户
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_detail","673","
+        用户详情
+        :return:
+        "
+"passed","test_subject_management.TestSubjectManagement#test_subject_add","510","
+        新增学科
+        :return:
+        "
+"passed","test_data_node_management.TestDataNodeManagement#test_data_node_add","465","
+        新增数据节点
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_add_imagery","3477","
+        新增图片类型数据服务
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_delete","878","
+        删除用户
+        :return:
+        "
+"passed","test_role_management.TestRoleManagement#test_role_edit","1127","
+        编辑角色
+        :return:
+        "
+"passed","test_data_node_management.TestDataNodeManagement#test_data_node_delete","835","
+        删除数据节点
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_edit","1037","
+        编辑用户
+        :return:
+        "
+"passed","test_subject_management.TestSubjectManagement#test_subject_list","83","
+        学科列表
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_add_map","3852","
+        新增map类型数据服务
+        :return:
+        "
+"passed","test_account_management.TestAccountManagement#test_account_enable","1444","
+        启用用户
+        :return:
+        "
+"passed","test_tag_management.TestTagsManagement#test_tags_edit","821","
+        标签编辑
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_add_database","4004","
+        新增database类型数据服务
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_add_http","3566","
+        新增http类型数据服务
+        :return:
+        "
+"passed","test_data_node_management.TestDataNodeManagement#test_data_node_list","88","
+        获取数据节点
+        :return:
+        "
+"passed","test_tag_management.TestTagsManagement#test_get_tags_list","91","
+        标签列表
+        :return:
+        "
+"passed","test_data_node_management.TestDataNodeManagement#test_data_node_edit","837","
+        编辑数据节点
+        :return:
+        "
+"passed","test_role_management.TestRoleManagement#test_role_delete","999","
+        删除角色
+        :return:
+        "
+"passed","test_role_management.TestRoleManagement#test_role_add","633","
+        新增角色
+        :return:
+        "
+"passed","test_tag_management.TestTagsManagement#test_tags_delete","809","
+        标签删除
+        :return:
+        "
+"passed","test_role_management.TestRoleManagement#test_role_detail","887","
+        角色详情
+        :return:
+        "
+"passed","test_data_management.TestDataManagement#test_data_management_list","97","
+        数据服务列表
+        :return:
+        "
+"passed","test_tag_management.TestTagsManagement#test_tags_add","537","
+        标签新增
+        :return:
+        "

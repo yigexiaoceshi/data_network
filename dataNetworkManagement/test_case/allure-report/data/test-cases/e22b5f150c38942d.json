@@ -1,0 +1,88 @@
+{
+  "uid" : "e22b5f150c38942d",
+  "name" : "test_data_add_linkdata",
+  "fullName" : "test_data_management.TestDataManagement#test_data_add_linkdata",
+  "historyId" : "28ab51b6b047f63adc4ef9188b329ffd",
+  "time" : {
+    "start" : 1693393155372,
+    "stop" : 1693393158825,
+    "duration" : 3453
+  },
+  "description" : "\n        新增linkdata类型数据服务\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增linkdata类型数据服务\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_api_data_clear",
+    "time" : {
+      "start" : 1693393155370,
+      "stop" : 1693393155371,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_api_data_clear::0",
+    "time" : {
+      "start" : 1693393158827,
+      "stop" : 1693393161478,
+      "duration" : 2651
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增linkdata类型数据服务"
+  }, {
+    "name" : "feature",
+    "value" : "数据服务管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_data_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e22b5f150c38942d.json",
+  "parameterValues" : [ ]
+}

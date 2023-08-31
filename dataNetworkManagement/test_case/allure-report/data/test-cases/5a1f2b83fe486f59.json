@@ -1,0 +1,88 @@
+{
+  "uid" : "5a1f2b83fe486f59",
+  "name" : "test_role_add",
+  "fullName" : "test_role_management.TestRoleManagement#test_role_add",
+  "historyId" : "186d649b0a46ed24bc0d339d8b34817c",
+  "time" : {
+    "start" : 1693393164779,
+    "stop" : 1693393165409,
+    "duration" : 630
+  },
+  "description" : "\n        新增角色\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增角色\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_role_data_clear",
+    "time" : {
+      "start" : 1693393164779,
+      "stop" : 1693393164779,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_role_data_clear::0",
+    "time" : {
+      "start" : 1693393165409,
+      "stop" : 1693393165804,
+      "duration" : 395
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "角色管理"
+  }, {
+    "name" : "story",
+    "value" : "新增角色"
+  }, {
+    "name" : "suite",
+    "value" : "test_role_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoleManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_role_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a1f2b83fe486f59.json",
+  "parameterValues" : [ ]
+}

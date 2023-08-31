@@ -1,0 +1,68 @@
+{
+  "uid" : "3b39ad5a9877fb82",
+  "name" : "test_role_list",
+  "fullName" : "test_role_management.TestRoleManagement#test_role_list",
+  "historyId" : "b5c59d46d07021d7fb5610c93a00a05b",
+  "time" : {
+    "start" : 1693393467945,
+    "stop" : 1693393468062,
+    "duration" : 117
+  },
+  "description" : "\n        角色列表\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    角色列表\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "角色管理"
+  }, {
+    "name" : "story",
+    "value" : "角色列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_role_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoleManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24434-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_role_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "42ed2a6499d18e91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1693393164646,
+        "stop" : 1693393164778,
+        "duration" : 132
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b39ad5a9877fb82.json",
+  "parameterValues" : [ ]
+}

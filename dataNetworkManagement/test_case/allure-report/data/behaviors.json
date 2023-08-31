@@ -1,0 +1,509 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "用户管理",
+    "children" : [ {
+      "name" : "获取用户列表",
+      "children" : [ {
+        "name" : "获取用户列表",
+        "uid" : "a369e0c6dc6a0b35",
+        "parentUid" : "a0a55c45673eb8fc7ab7a5519a3067f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393424057,
+          "stop" : 1693393424200,
+          "duration" : 143
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0a55c45673eb8fc7ab7a5519a3067f9"
+    }, {
+      "name" : "新增用户",
+      "children" : [ {
+        "name" : "test_account_add",
+        "uid" : "76a69b1271beadd",
+        "parentUid" : "df7c4f30fb7fbe4a01913ef6d3a33d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393424475,
+          "stop" : 1693393424861,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df7c4f30fb7fbe4a01913ef6d3a33d31"
+    }, {
+      "name" : "编辑用户",
+      "children" : [ {
+        "name" : "test_account_edit",
+        "uid" : "34fb28d9aabf0e5a",
+        "parentUid" : "ca1254470bec63cc4c0624404d7e97bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393425256,
+          "stop" : 1693393426293,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca1254470bec63cc4c0624404d7e97bb"
+    }, {
+      "name" : "用户详情",
+      "children" : [ {
+        "name" : "test_account_detail",
+        "uid" : "2cef7a6a7af1041b",
+        "parentUid" : "256744d5de5c6cc879e00a3f0aa0b840",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393426745,
+          "stop" : 1693393427418,
+          "duration" : 673
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "256744d5de5c6cc879e00a3f0aa0b840"
+    }, {
+      "name" : "停用用户",
+      "children" : [ {
+        "name" : "test_account_disable",
+        "uid" : "e5d90a81eb0f2257",
+        "parentUid" : "3fd075fa4f726fa01a30f7975680ba5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393427846,
+          "stop" : 1693393428772,
+          "duration" : 926
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fd075fa4f726fa01a30f7975680ba5d"
+    }, {
+      "name" : "启用用户",
+      "children" : [ {
+        "name" : "test_account_enable",
+        "uid" : "d92fe28bf63c74bd",
+        "parentUid" : "601481f437a13647afc65da25056fbf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393429286,
+          "stop" : 1693393430730,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "601481f437a13647afc65da25056fbf4"
+    }, {
+      "name" : "删除用户",
+      "children" : [ {
+        "name" : "test_account_delete",
+        "uid" : "cf10c4997c0a43d0",
+        "parentUid" : "15aee17d14c1d0d1062a53cda2d50212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393431278,
+          "stop" : 1693393432156,
+          "duration" : 878
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15aee17d14c1d0d1062a53cda2d50212"
+    } ],
+    "uid" : "b6ede8d5c1aa4a4ca6cf55e2515f1b55"
+  }, {
+    "name" : "数据服务管理",
+    "children" : [ {
+      "name" : "数据服务列表",
+      "children" : [ {
+        "name" : "test_data_management_list",
+        "uid" : "632b6f4418b242c4",
+        "parentUid" : "d63316fbdecfa87152e2c03435e4449c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393432551,
+          "stop" : 1693393432648,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d63316fbdecfa87152e2c03435e4449c"
+    }, {
+      "name" : "新增http类型数据服务",
+      "children" : [ {
+        "name" : "test_data_add_http",
+        "uid" : "a2b64af7d0cf4baf",
+        "parentUid" : "8b5f0bf2103692a28d82fe4fe833bc31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393432923,
+          "stop" : 1693393436489,
+          "duration" : 3566
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b5f0bf2103692a28d82fe4fe833bc31"
+    }, {
+      "name" : "新增database类型数据服务",
+      "children" : [ {
+        "name" : "test_data_add_database",
+        "uid" : "32ae045f36dc3d2b",
+        "parentUid" : "4d3872aa687caad5167d5a8a60bd533d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393439211,
+          "stop" : 1693393443215,
+          "duration" : 4004
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d3872aa687caad5167d5a8a60bd533d"
+    }, {
+      "name" : "新增map类型数据服务",
+      "children" : [ {
+        "name" : "test_data_add_map",
+        "uid" : "3365d1661e49b57",
+        "parentUid" : "df7ad0d50a8ba2499423d9ffcd61b608",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393445981,
+          "stop" : 1693393449833,
+          "duration" : 3852
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df7ad0d50a8ba2499423d9ffcd61b608"
+    }, {
+      "name" : "新增图片类型数据服务",
+      "children" : [ {
+        "name" : "test_data_add_imagery",
+        "uid" : "5390b8d8f72c9d03",
+        "parentUid" : "12668f6e04c60ee1b60943de476e418d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393452547,
+          "stop" : 1693393456024,
+          "duration" : 3477
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12668f6e04c60ee1b60943de476e418d"
+    }, {
+      "name" : "新增linkdata类型数据服务",
+      "children" : [ {
+        "name" : "test_data_add_linkdata",
+        "uid" : "91f1cba94bcf4740",
+        "parentUid" : "bdd046b4c71637c64daa989b98a0fe79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393458852,
+          "stop" : 1693393462385,
+          "duration" : 3533
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdd046b4c71637c64daa989b98a0fe79"
+    } ],
+    "uid" : "c9bde2ce76e1a47d8578fa82bc230b19"
+  }, {
+    "name" : "数据节点管理",
+    "children" : [ {
+      "name" : "获取数据节点",
+      "children" : [ {
+        "name" : "test_data_node_list",
+        "uid" : "1b23fef44a4d2b0",
+        "parentUid" : "f3344ab041860d4834f90a851c34fcdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393465088,
+          "stop" : 1693393465176,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3344ab041860d4834f90a851c34fcdd"
+    }, {
+      "name" : "新增数据节点",
+      "children" : [ {
+        "name" : "test_data_node_add",
+        "uid" : "2e2ac823cb4be06b",
+        "parentUid" : "4a6b0f1cfa453ed8932646f74bbe785c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393465325,
+          "stop" : 1693393465790,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a6b0f1cfa453ed8932646f74bbe785c"
+    }, {
+      "name" : "编辑数据节点",
+      "children" : [ {
+        "name" : "test_data_node_edit",
+        "uid" : "4129c2ae7e85d488",
+        "parentUid" : "caf3d018cec9233981742aa23f14e15d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393465966,
+          "stop" : 1693393466803,
+          "duration" : 837
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "caf3d018cec9233981742aa23f14e15d"
+    }, {
+      "name" : "删除数据节点",
+      "children" : [ {
+        "name" : "test_data_node_delete",
+        "uid" : "cfcb22c952b2f307",
+        "parentUid" : "d4f28e6e71b41a0ed1f18b78d547b22c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393466963,
+          "stop" : 1693393467798,
+          "duration" : 835
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4f28e6e71b41a0ed1f18b78d547b22c"
+    } ],
+    "uid" : "30746a93e8d7135f5695a417ada8d901"
+  }, {
+    "name" : "角色管理",
+    "children" : [ {
+      "name" : "角色列表",
+      "children" : [ {
+        "name" : "test_role_list",
+        "uid" : "3b39ad5a9877fb82",
+        "parentUid" : "46e554b190b0087ac84c6eb6f98d91a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393467945,
+          "stop" : 1693393468062,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46e554b190b0087ac84c6eb6f98d91a9"
+    }, {
+      "name" : "新增角色",
+      "children" : [ {
+        "name" : "test_role_add",
+        "uid" : "b932748819701734",
+        "parentUid" : "49c1bb5efc984d98d789554030c36ad3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393468063,
+          "stop" : 1693393468696,
+          "duration" : 633
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49c1bb5efc984d98d789554030c36ad3"
+    }, {
+      "name" : "编辑角色",
+      "children" : [ {
+        "name" : "test_role_edit",
+        "uid" : "f72c98c5c69b4273",
+        "parentUid" : "f74bb9a168906c6bf2a7d990fbba427b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393469137,
+          "stop" : 1693393470264,
+          "duration" : 1127
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f74bb9a168906c6bf2a7d990fbba427b"
+    }, {
+      "name" : "角色详情",
+      "children" : [ {
+        "name" : "test_role_detail",
+        "uid" : "3faab22c5fc5490b",
+        "parentUid" : "6e98d778c669f6604a4893c0934e45b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393470702,
+          "stop" : 1693393471589,
+          "duration" : 887
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e98d778c669f6604a4893c0934e45b9"
+    }, {
+      "name" : "删除角色",
+      "children" : [ {
+        "name" : "test_role_delete",
+        "uid" : "375632eaff51f7c1",
+        "parentUid" : "94dc11059120df65bde06469030d9ce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393471999,
+          "stop" : 1693393472998,
+          "duration" : 999
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94dc11059120df65bde06469030d9ce2"
+    } ],
+    "uid" : "cec8a4b0a47bf19e40e312b53a0be942"
+  }, {
+    "name" : "学科管理",
+    "children" : [ {
+      "name" : "学科列表",
+      "children" : [ {
+        "name" : "test_subject_list",
+        "uid" : "e8786896596307f4",
+        "parentUid" : "370abffb4cfa8ad7a31e40574dbfade1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393473399,
+          "stop" : 1693393473482,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "370abffb4cfa8ad7a31e40574dbfade1"
+    }, {
+      "name" : "新增学科",
+      "children" : [ {
+        "name" : "test_subject_add",
+        "uid" : "5cfa95b46c4b7544",
+        "parentUid" : "92b21a2e7fc77899c08e209289d1e5b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393473625,
+          "stop" : 1693393474135,
+          "duration" : 510
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92b21a2e7fc77899c08e209289d1e5b7"
+    }, {
+      "name" : "编辑学科",
+      "children" : [ {
+        "name" : "test_subject_edit",
+        "uid" : "fcc3aa7a71b0f29",
+        "parentUid" : "a32f770c0aa5cb4271e98803a5b85ef2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393474314,
+          "stop" : 1693393475137,
+          "duration" : 823
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a32f770c0aa5cb4271e98803a5b85ef2"
+    }, {
+      "name" : "删除学科",
+      "children" : [ {
+        "name" : "test_subject_delete",
+        "uid" : "c8bbe311d2f4fc3a",
+        "parentUid" : "99b9eb98abba54162afd094263221216",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393475301,
+          "stop" : 1693393476123,
+          "duration" : 822
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99b9eb98abba54162afd094263221216"
+    } ],
+    "uid" : "0553b0c0063381196956b25835ee61a3"
+  }, {
+    "name" : "标签管理",
+    "children" : [ {
+      "name" : "标签列表",
+      "children" : [ {
+        "name" : "test_get_tags_list",
+        "uid" : "b2f4dd87a6eb7bf6",
+        "parentUid" : "14b06e4827cf42131b88f29b3949cdd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393476286,
+          "stop" : 1693393476377,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14b06e4827cf42131b88f29b3949cdd1"
+    }, {
+      "name" : "标签新增",
+      "children" : [ {
+        "name" : "test_tags_add",
+        "uid" : "86ba8acb772beeab",
+        "parentUid" : "4dbe43af29bb23095af0f296f38a66bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393476540,
+          "stop" : 1693393477077,
+          "duration" : 537
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4dbe43af29bb23095af0f296f38a66bb"
+    }, {
+      "name" : "标签编辑",
+      "children" : [ {
+        "name" : "test_tags_edit",
+        "uid" : "30bb17fabd1c4ac9",
+        "parentUid" : "5e589e26102b04f7489f861dc12c0276",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393477240,
+          "stop" : 1693393478061,
+          "duration" : 821
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e589e26102b04f7489f861dc12c0276"
+    }, {
+      "name" : "标签删除",
+      "children" : [ {
+        "name" : "test_tags_delete",
+        "uid" : "1c9542996abfdd1d",
+        "parentUid" : "5eef071c7ff408c808a2f7a363459122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1693393478225,
+          "stop" : 1693393479034,
+          "duration" : 809
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eef071c7ff408c808a2f7a363459122"
+    } ],
+    "uid" : "e2ebffde6c47195b5f5004a5f6578025"
+  } ],
+  "name" : "behaviors"
+}

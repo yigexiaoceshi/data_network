@@ -1,0 +1,88 @@
+{
+  "uid" : "a8d6109072227a2f",
+  "name" : "test_data_add_map",
+  "fullName" : "test_data_management.TestDataManagement#test_data_add_map",
+  "historyId" : "471e8621e9528e4f3052fb1d69f5a2b2",
+  "time" : {
+    "start" : 1693393142323,
+    "stop" : 1693393146528,
+    "duration" : 4205
+  },
+  "description" : "\n        新增map类型数据服务\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增map类型数据服务\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_api_data_clear",
+    "time" : {
+      "start" : 1693393142322,
+      "stop" : 1693393142322,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_api_data_clear::0",
+    "time" : {
+      "start" : 1693393146530,
+      "stop" : 1693393149171,
+      "duration" : 2641
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增map类型数据服务"
+  }, {
+    "name" : "feature",
+    "value" : "数据服务管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_data_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8d6109072227a2f.json",
+  "parameterValues" : [ ]
+}

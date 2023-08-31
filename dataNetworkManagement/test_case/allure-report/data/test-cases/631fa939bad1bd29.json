@@ -1,0 +1,88 @@
+{
+  "uid" : "631fa939bad1bd29",
+  "name" : "test_tags_add",
+  "fullName" : "test_tag_management.TestTagsManagement#test_tags_add",
+  "historyId" : "8cdb7cb46a46368858d67770b8bb23c1",
+  "time" : {
+    "start" : 1693393173243,
+    "stop" : 1693393173702,
+    "duration" : 459
+  },
+  "description" : "\n        标签新增\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    标签新增\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_tag_data_clear",
+    "time" : {
+      "start" : 1693393173243,
+      "stop" : 1693393173243,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_tag_data_clear::0",
+    "time" : {
+      "start" : 1693393173703,
+      "stop" : 1693393173862,
+      "duration" : 159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签管理"
+  }, {
+    "name" : "story",
+    "value" : "标签新增"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTagsManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "631fa939bad1bd29.json",
+  "parameterValues" : [ ]
+}

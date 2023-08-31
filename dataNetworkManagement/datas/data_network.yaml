@@ -1,0 +1,287 @@
+host: http://120.27.240.225
+api_interface: http://114.55.32.117:8081
+http_in: http://114.55.32.117:8082
+login:
+  account: liyong
+  password: !!str 88888888
+api_url:
+  登录: /manager-system-webapi/login
+  角色列表: /manager-system-webapi/role/display
+  新增角色: /manager-system-webapi/role/add
+  角色详情: /manager-system-webapi/role/detail
+  编辑角色: /manager-system-webapi/role/edit
+  删除角色: /manager-system-webapi/role/delete
+  用户列表: /manager-system-webapi/account/display
+  新增用户: /manager-system-webapi/account/add
+  用户详情: /manager-system-webapi/account/detail
+  编辑用户: /manager-system-webapi/account/edit
+  停用用户: /manager-system-webapi/account/disable
+  启用用户: /manager-system-webapi/account/enable
+  删除用户: /manager-system-webapi/account/delete
+  获取学科: /manager-system-webapi/subject/display
+  新增学科: /manager-system-webapi/subject/add
+  编辑学科: /manager-system-webapi/subject/edit
+  删除学科: /manager-system-webapi/subject/delete
+  获取标签列表: /manager-system-webapi/tag/display
+  新增标签: /manager-system-webapi/tag/add
+  编辑标签: /manager-system-webapi/tag/edit
+  删除标签: /manager-system-webapi/tag/delete
+  获取数据节点: /manager-system-webapi/data/manager/data/node/count
+  新增数据节点: /manager-system-webapi/data/node/add
+  编辑数据节点: /manager-system-webapi/data/node/edit
+  删除数据节点: /manager-system-webapi/data/node/delete
+  数据服务列表: /manager-system-webapi/data/manager/page
+  图片上传: /manager-system-webapi/file/upload
+  数据服务新增_first: /manager-system-webapi/data/manager/first
+  数据服务新增_second: /manager-system-webapi/data/manager/second
+  数据服务新增_third: /manager-system-webapi/data/manager/third
+  数据服务新增_submit: /manager-system-webapi/data/manager/add
+  获取内核connector: /manager-system-webapi/data/manager/connector/get
+  获取connector详情: /manager-system-webapi/data/manager/connector/detail
+  获取map详情: /manager-system-webapi/ogc/operation/get
+  获取中枢token: /api/central/token
+mysql_hk_test:
+  host: rm-3ns1r51utqk2nfjp0uo.mysql.rds.aliyuncs.com
+  port: 3306
+  username: root
+  password: "*Rj7a8T%9Bp6s42"
+  database_name: dde_manager
+mysql_hk_prod:
+  host: rm-3ns4n606onu242714ko.mysql.rds.aliyuncs.com
+  port: 3306
+  username: data_network_prod
+  password: "wRJr0Wujunf2Y6ol"
+  database_name: data_network_prod
+mysql_hz_prod:
+  host: rm-1ud1ifosnfre6ty5fho.mysql.rds.aliyuncs.com
+  port: 3306
+  username: root
+  password: "JC28q0RDiVtG!W2i"
+  database_name: data_network_prod
+redis_hz_prod_data_network:
+  host: r-1ud4tvo6wbg745d4rvpd.redis.rds.aliyuncs.com
+  port: 6379
+  username: root
+  password: "&J$JNK8uqT!aQbJp"
+  db: 1
+redis_hz_prod_centralsystem:
+  host: 47.110.43.173
+  port: 6379
+  username:
+  password: "KhztUrhxplcFiP1"
+  db: 0
+mongodb:
+  hk_test_uri: "mongodb://root:X#9xQ69LBt0#XIxp@dds-3nsb95be5acb99441932-pub.mongodb.rds.aliyuncs.com:3717,dds-3nsb95be5acb99442133-pub.mongodb.rds.aliyuncs.com:3717/?replicaSet=mgset-66466292&authSource=admin"
+  hz_prod_uri: "mongodb://root:gMA1ZM94U0AoFevr3w@120.27.156.93:27017/?replicaSet=MainRepSet&authSource=admin"
+account_add:
+  account: account_add_auto_test
+  nickName: nick_name_add_auto_test
+  roleIdList: 数据库获取
+  phone: 1338888
+  email: 1338888
+  description: description_add_auto_test
+account_edit:
+  account: account_edit_auto_test
+  nickName: nick_name_edit_auto_test
+  roleIdList: 数据库获取
+  phone: 1338888
+  email: 1338888
+  description: description_add_auto_test
+  id: 数据库获取
+role_add:
+  name: role_name_add_auto_test
+  menuList: 数据库获取
+role_edit:
+  name: role_name_edit_auto_test
+  menuList: 数据库获取
+  id: 数据库获取
+subject_add:
+  name: subject_name_add_auto_test
+  description: description_add_auto_test
+subject_edit:
+  name: subject_name_edit_auto_test
+  description: description_edit_auto_test
+tag_add:
+  name: tag_name_add_auto_test
+  description: description_add_auto_test
+tag_edit:
+  name: tag_name_edit_auto_test
+  description: description_edit_auto_test
+data_node_add:
+  parent: null
+  name: data_node_name_add_auto_test
+  description: description_add_auto_test
+data_node_edit:
+  parent: null
+  name: data_node_name_edit_auto_test
+  description: description_edit_auto_test
+upload:
+  stream:
+  file:
+data_add_first:
+  name_http: Data_name_http_add_auto_test
+  name_database: Data_name_database_add_auto_test
+  name_imagery: Data_name_imagery_add_auto_test
+  name_map: Data_name_map_add_auto_test
+  name_linkdata: Data_name_linkdata_add_auto_test
+  version: V1.0.0
+  description: description_add_auto_test
+  subjects: 数据库获取
+  tags: 数据库获取
+  dataNodeIdList: 数据库获取
+  credence: Official
+  authorizationType: Public
+  browseGraph: http://dde-geogpt.oss-cn-hongkong.aliyuncs.com/test/dde-manage-system/2023-08-15/love.png
+  license: "4"
+  intellectualProp: "1"
+  source: "2"
+  authorName: "3"
+  authorMail: "4"
+  associatedResource: "5"
+  associatedResourceUrl: "6"
+  intellectualGraph: !!str <p>7<p>
+  minX: "11"
+  maxX: "22"
+  minY: "33"
+  maxY: "44"
+  resolution: "55"
+  coordinateReferenceSystem: "66"
+  elevation: "77"
+  geologicTime: "111"
+  geologicAge: "222"
+  geologicalBase: "333"
+  geologicalTop: "444"
+  gtsVersion: GTS2004
+  baseInfoStatus: 1
+  spatialInfoStatus: 1
+  temporalInfoStatus: 1
+data_add_second_http:
+  endpoint: api.oioweb.cn
+  tls: "No"
+  description: description_test_data_add_second
+  type: http
+data_add_second_database:
+  connectorType: 数据库获取
+  endpoint: rm-3ns1r51utqk2nfjp0uo.mysql.rds.aliyuncs.com:3306
+  tls: "No"
+  description: description_test_data_add_second
+  type: database
+  connectInfoDatabase:
+    - key: 获取
+      value: root
+    - key: 获取
+      value: "*Rj7a8T%9Bp6s42"
+    - key: 获取
+      value: "5.7"
+    - key: 获取
+      value: dde_manager
+    - key: 获取
+      value: mysql
+    - key: 获取
+      value: serverTimezone=GMT%2B8&useSSL=false
+data_add_second_imagery:
+  serviceType: API
+  endpoint: hbimg.huabanimg.com
+  tls: "No"
+  description: description_test_data_add_second
+  type: imageBase
+data_add_second_map:
+  description: description_test_data_add_second
+  endpoint: 192.168.1.1:8080
+  gisProtocol: OGC
+  mapInfoList:
+    - mapProtocol: WMS
+      requestList: 获取
+      version: WMS 1.1.1
+    - mapProtocol: WMTS
+      requestList: 获取
+      version: WMTS1.0.0
+    - mapProtocol: WFS
+      requestList: 获取
+      version: WFS 2.0.0
+    - mapProtocol: TMS
+      requestList: 获取
+      version: TMS 1.0.0
+  mapProtocolList: [ "WMS","WMTS","WFS","TMS" ]
+  path: /api/map/test
+  tls: "No"
+  type: map
+data_add_second_linkdata:
+  description: description_test_data_add_second
+  doi: "1"
+  endpoint: 192.168.0.1:8080
+  fileSize: "2"
+  fileType: "4"
+  linkType: "SingleFile"
+  records: "3"
+  subDataType: "5"
+  tls: "No"
+  type: linkData
+data_add_third_http:
+  protocol: http
+  method_get: get
+  method_post: post
+  contentType: application/json
+  contentType_urlencoded: application/x-www-form-urlencoded
+  path_http: /api/common/history
+  path_database: /database/mysql/test
+  path_imagery: /api/imagery/test
+  path_linkdata: /api/linkdata/test
+  mockType: !!bool true
+  mockType_false: !!bool false
+  mockData: MockData
+  transferProtocol: HTTP->HTTP
+  transferProtocol_database: Database->HTTP
+  requestGroovy: request_groovy_test
+  responseGroovy: response_groovy_test
+  paramOutType: json
+  paramPath:
+    - keyword: path_key
+      must: !!bool true
+      name: path_name
+      Description: ""
+      description: path_description_test
+  paramPath_database: [ ]
+  paramQuery:
+    - id: 1691747660999
+      title: ""
+      must: !!bool true
+      type: string
+      name: query_name
+      description: query_description
+      keyword: query_key
+  paramQuery_database: [ ]
+  paramHeader:
+    - id: 1691747660999
+      title: ""
+      must: !!bool true
+      type: string
+      name: header_name
+      description: header_description
+      keyword: header_key
+  paramHeader_database: [ ]
+  paramForm: [ ]
+  paramBody:
+    keyword: root
+    name: ~
+    type: object
+    must: !!bool true
+    description: ~
+    children: [ ]
+  paramOut:
+    keyword: root
+    name: ~
+    type: object
+    must: !!bool true
+    description: ~
+    children:
+      - id: 1691747660999
+        title: ''
+        must: !!bool true
+        type: string
+        name: field_name
+        description: field_Description
+        keyword: field_01
+  paramBodyType: form
+  type: http
+  type_database: database

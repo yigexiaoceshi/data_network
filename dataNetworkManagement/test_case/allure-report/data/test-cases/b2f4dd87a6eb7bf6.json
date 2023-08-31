@@ -1,0 +1,154 @@
+{
+  "uid" : "b2f4dd87a6eb7bf6",
+  "name" : "test_get_tags_list",
+  "fullName" : "test_tag_management.TestTagsManagement#test_get_tags_list",
+  "historyId" : "5f3839032af6d03ba5591ec8dccc8abc",
+  "time" : {
+    "start" : 1693393476286,
+    "stop" : 1693393476377,
+    "duration" : 91
+  },
+  "description" : "\n        标签列表\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    标签列表\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_tag_data_clear",
+    "time" : {
+      "start" : 1693393476286,
+      "stop" : 1693393476286,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        标签列表\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤一：d调用用户列表获取返回值",
+      "time" : {
+        "start" : 1693393476286,
+        "stop" : 1693393476377,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤二：获取返回结果的success做断言",
+      "time" : {
+        "start" : 1693393476377,
+        "stop" : 1693393476377,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤三：获取返回结果的code做断言",
+      "time" : {
+        "start" : 1693393476377,
+        "stop" : 1693393476377,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "test_tag_data_clear::0",
+    "time" : {
+      "start" : 1693393476377,
+      "stop" : 1693393476538,
+      "duration" : 161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签管理"
+  }, {
+    "name" : "story",
+    "value" : "标签列表"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTagsManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24434-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tag_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5865513eca292ce2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1693393172997,
+        "stop" : 1693393173093,
+        "duration" : 96
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2f4dd87a6eb7bf6.json",
+  "parameterValues" : [ ]
+}

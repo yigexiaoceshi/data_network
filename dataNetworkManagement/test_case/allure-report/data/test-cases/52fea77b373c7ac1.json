@@ -1,0 +1,88 @@
+{
+  "uid" : "52fea77b373c7ac1",
+  "name" : "test_role_edit",
+  "fullName" : "test_role_management.TestRoleManagement#test_role_edit",
+  "historyId" : "3eb7b2c075b745c772781ce247384045",
+  "time" : {
+    "start" : 1693393165805,
+    "stop" : 1693393167050,
+    "duration" : 1245
+  },
+  "description" : "\n        编辑角色\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    编辑角色\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_role_data_clear",
+    "time" : {
+      "start" : 1693393165805,
+      "stop" : 1693393165805,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_role_data_clear::0",
+    "time" : {
+      "start" : 1693393167050,
+      "stop" : 1693393167464,
+      "duration" : 414
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "角色管理"
+  }, {
+    "name" : "story",
+    "value" : "编辑角色"
+  }, {
+    "name" : "suite",
+    "value" : "test_role_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoleManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_role_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52fea77b373c7ac1.json",
+  "parameterValues" : [ ]
+}

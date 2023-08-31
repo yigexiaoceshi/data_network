@@ -1,0 +1,98 @@
+{
+  "uid" : "76a69b1271beadd",
+  "name" : "test_account_add",
+  "fullName" : "test_account_management.TestAccountManagement#test_account_add",
+  "historyId" : "a312d1dbc4c36622de9b4a7a65c1d04b",
+  "time" : {
+    "start" : 1693393424475,
+    "stop" : 1693393424861,
+    "duration" : 386
+  },
+  "description" : "\n        新增用户\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增用户\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_account_data_clear",
+    "time" : {
+      "start" : 1693393424475,
+      "stop" : 1693393424475,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_account_data_clear::0",
+    "time" : {
+      "start" : 1693393424862,
+      "stop" : 1693393425255,
+      "duration" : 393
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增用户"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_account_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccountManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24434-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_account_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b331b4f511deab25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1693393121878,
+        "stop" : 1693393122327,
+        "duration" : 449
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76a69b1271beadd.json",
+  "parameterValues" : [ ]
+}

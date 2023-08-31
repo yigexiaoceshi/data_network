@@ -1,0 +1,88 @@
+{
+  "uid" : "e43a8c847b63481c",
+  "name" : "test_data_node_add",
+  "fullName" : "test_data_node_management.TestDataNodeManagement#test_data_node_add",
+  "historyId" : "ec97b1f04d1bfc8330d480e923a8787e",
+  "time" : {
+    "start" : 1693393161748,
+    "stop" : 1693393162300,
+    "duration" : 552
+  },
+  "description" : "\n        新增数据节点\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增数据节点\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "test_data_node_data_clear",
+    "time" : {
+      "start" : 1693393161748,
+      "stop" : 1693393161748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_data_node_data_clear::0",
+    "time" : {
+      "start" : 1693393162300,
+      "stop" : 1693393162476,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增数据节点"
+  }, {
+    "name" : "feature",
+    "value" : "数据节点管理"
+  }, {
+    "name" : "suite",
+    "value" : "test_data_node_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataNodeManagement"
+  }, {
+    "name" : "host",
+    "value" : "liyongdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24201-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_data_node_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e43a8c847b63481c.json",
+  "parameterValues" : [ ]
+}
