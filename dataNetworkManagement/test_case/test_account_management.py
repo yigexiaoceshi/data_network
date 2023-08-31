@@ -13,7 +13,7 @@ class TestAccountManagement():
     @allure.story("获取用户列表")
     def test_account_list(self, test_account_data_clear):
         """
-        获取用户列表
+        获取用户列表1
         :return:
         """
         # 调用户列表接口获取返回值
