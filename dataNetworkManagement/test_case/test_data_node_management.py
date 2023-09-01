@@ -17,6 +17,7 @@ class TestDataNodeManagement():
         """
         # 调用户列表接口获取返回值
         result = DataNodeManagement().get_data_node_list()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
 
@@ -29,6 +30,7 @@ class TestDataNodeManagement():
         """
         # 调用户列表接口获取返回值
         result = DataNodeManagement().data_node_add()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后服务总数量相差1
@@ -45,6 +47,7 @@ class TestDataNodeManagement():
         """
         # 调用户列表接口获取返回值
         result = DataNodeManagement().data_node_edit()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言编辑前后的id相同
@@ -62,6 +65,7 @@ class TestDataNodeManagement():
         """
         # 调用户列表接口获取返回值
         result = DataNodeManagement().data_node_delete()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言当前已删除的id不包含在所有未删除的数据节点id中

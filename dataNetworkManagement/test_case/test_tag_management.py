@@ -18,6 +18,7 @@ class TestTagsManagement():
         with allure.step("步骤一：d调用用户列表获取返回值"):
             # 调用户列表接口获取返回值
             result = TagsManagement().get_tags_list()
+            print(result)
         with allure.step("步骤二：获取返回结果的success做断言"):
             assert result['success'] == True
         with allure.step("步骤三：获取返回结果的code做断言"):
@@ -31,6 +32,7 @@ class TestTagsManagement():
         :return:
         """  # 调用户列表接口获取返回值
         result = TagsManagement().tags_add()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后的标签总数量相差1
@@ -47,6 +49,7 @@ class TestTagsManagement():
         """
         # 调用户列表接口获取返回值
         result = TagsManagement().tags_edit()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言编辑前后标签id相同
@@ -64,6 +67,7 @@ class TestTagsManagement():
         """
         # 调用户列表接口获取返回值
         result = TagsManagement().tags_delete()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言被删除标签id不包含在所有未删除标签id中

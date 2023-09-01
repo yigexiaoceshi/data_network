@@ -17,6 +17,7 @@ class TestRoleManagement():
         """
         # 调用户列表接口获取返回值
         result = RoleManagement().get_role_list()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
 
@@ -29,6 +30,7 @@ class TestRoleManagement():
         """
         # 调用户列表接口获取返回值
         result = RoleManagement().role_add()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后的角色总数量相差1
@@ -45,6 +47,7 @@ class TestRoleManagement():
         """
         # 调用户列表接口获取返回值
         result = RoleManagement().role_edit()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言编辑前后的角色名称（name）不相同
@@ -59,6 +62,7 @@ class TestRoleManagement():
         """
         # 调用户列表接口获取返回值
         result = RoleManagement().role_detail()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
         assert result['data']['name'] == 'role_name_add_auto_test'
@@ -72,6 +76,7 @@ class TestRoleManagement():
         """
         # 调用户列表接口获取返回值
         result = RoleManagement().role_delete()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言被删除的角色id不包含在所有未删除的角色id中

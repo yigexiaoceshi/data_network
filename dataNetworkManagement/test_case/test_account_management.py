@@ -18,6 +18,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().get_account_list()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
 
@@ -30,6 +31,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_add()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         assert result[1][0][1] == 'account_add_auto_test'
@@ -45,6 +47,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_edit()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         assert result[1] == 'nick_name_add_auto_test'
@@ -59,6 +62,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_detail()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
         assert result['data']['account'] == 'account_add_auto_test'
@@ -74,6 +78,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_disable()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言当前用户的启用状态为禁用
@@ -88,6 +93,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_enable()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言当前用户的启用状态为启用
@@ -102,6 +108,7 @@ class TestAccountManagement():
         """
         # 调用户列表接口获取返回值
         result = AccountManagement().account_delete()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言当前用户id不包含在所有未删除的用户id

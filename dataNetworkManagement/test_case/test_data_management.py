@@ -17,6 +17,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().get_data_list()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
 
@@ -29,6 +30,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().data_add_http()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后的服务总数量相差1
@@ -92,6 +94,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().data_add_database()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后的服务总数量相差1
@@ -152,6 +155,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().data_add_map()
+        print(result)
         assert result[0]["success"] == True
         assert result[0]['code'] == 200
         assert result[2][0][0] - result[1][0][0] == 1
@@ -196,6 +200,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().data_add_imagery()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后服务总数量相差1
@@ -256,6 +261,7 @@ class TestDataManagement():
         """
         # 调用户列表接口获取返回值
         result = DataManagement().data_add_linkdata()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 短信新增前后服务总数量相差1

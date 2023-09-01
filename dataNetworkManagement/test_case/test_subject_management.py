@@ -17,6 +17,7 @@ class TestSubjectManagement():
         """
         # 调用户列表接口获取返回值
         result = SubjectsManagement().get_subject_list()
+        print(result)
         assert result['success'] == True
         assert result['code'] == 200
 
@@ -29,6 +30,7 @@ class TestSubjectManagement():
         """
         # 调用户列表接口获取返回值
         result = SubjectsManagement().subject_add()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言新增前后的学科总数量相差1
@@ -45,6 +47,7 @@ class TestSubjectManagement():
         """
         # 调用户列表接口获取返回值
         result = SubjectsManagement().subject_edit()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言编辑前后的学科id相同
@@ -66,6 +69,7 @@ class TestSubjectManagement():
         """
         # 调用户列表接口获取返回值
         result = SubjectsManagement().subject_delete()
+        print(result)
         assert result[0]['success'] == True
         assert result[0]['code'] == 200
         # 断言被删除学科id不包含在所有未删除学科id中
