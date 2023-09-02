@@ -1,7 +1,5 @@
 pytest
 requests
-random
-os
 allure-pyteng
 PyMySQL
 PyYAML
