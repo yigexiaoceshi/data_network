@@ -1,6 +1,6 @@
 pytest
 requests
-allure-pyteng
+allure-pytest
 PyMySQL
 PyYAML
 allure-python-commons
