@@ -1,0 +1,17 @@
+pytest
+requests
+random
+os
+allure-pyteng
+PyMySQL
+PyYAML
+allure-python-commons
+pymongo
+pytest-html
+pytest-metadata
+python-deteutil
+redis
+urllib3
+wheel
+xlrd
+pytest-testconfig
