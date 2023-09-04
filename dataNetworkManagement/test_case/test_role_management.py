@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import pytest
 import allure
-from dataNetworkManagement.apis.role_management import RoleManagement
+from data_network.dataNetworkManagement.apis.role_management import RoleManagement
 
 
 @allure.feature("角色管理")

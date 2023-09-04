@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import pytest
 import allure
-from dataNetworkManagement.apis.data_management import DataManagement
+from data_network.dataNetworkManagement.apis.data_management import DataManagement
 
 
 @allure.feature("数据服务管理")

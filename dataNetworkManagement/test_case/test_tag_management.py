@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import pytest
 import allure
-from dataNetworkManagement.apis.tags_management import TagsManagement
+from data_network.dataNetworkManagement.apis.tags_management import TagsManagement
 
 
 @allure.feature("标签管理")

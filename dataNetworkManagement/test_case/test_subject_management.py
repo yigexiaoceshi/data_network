@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 import pytest
 import allure
-from dataNetworkManagement.apis.subjects_management import SubjectsManagement
+from data_network.dataNetworkManagement.apis.subjects_management import SubjectsManagement
 
 
 @allure.feature("学科管理")
